@@ -21,6 +21,7 @@ const initMySQL = async () => {
   })
 }
 
+
 const validateData = (userData) => {
   let errors = []
   if (!userData.firstname) {
